@@ -1,11 +1,12 @@
 ---
-name: project-manual-generator
-description: Create customer-facing CN and EN HTML user manuals from verified software behavior, with privacy-reviewed screenshots and output examples. Use for product operating guides, not developer architecture documentation.
+name: user-manual-generator-skill
+description: Create source-checked customer user manuals and user guides for desktop, web, or CLI software. Use when users need step-by-step CN/EN offline HTML documentation with privacy-reviewed screenshots and output examples; not for repository README files or developer architecture docs.
+license: MIT
 metadata:
-  short-description: Generate CN and EN offline product guides
+  short-description: Source-checked HTML user manuals for software
 ---
 
-# Project Manual Generator
+# User Manual Generator Skill
 
 Create a manual that helps a user complete the product's actual workflow. The packaged renderer is self-contained and does not depend on another design skill.
 
