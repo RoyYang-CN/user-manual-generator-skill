@@ -1,0 +1,52 @@
+{
+  "product": "Example CLI",
+  "version": "v0.1",
+  "source_revision": "synthetic-fixture-v1",
+  "source_kind": "fictional demonstration",
+  "product_type": "cli",
+  "image_root": ".",
+  "languages": {
+    "cn": {
+      "title": "使用说明书",
+      "subtitle": "虚构命令行工具示例",
+      "notice": "这是用于测试渲染器的合成示例，不描述真实产品。",
+      "chapters": [
+        {
+          "id": "start",
+          "title": "开始使用",
+          "blocks": [
+            {"type": "html", "content": "<p>在终端运行 <code>example-cli --help</code> 查看命令。</p>"}
+          ]
+        },
+        {
+          "id": "result",
+          "title": "查看结果",
+          "blocks": [
+            {"type": "html", "content": "<p>运行 <code>example-cli check sample.txt</code> 后，查看终端显示的状态。此命令仅为合成示例。</p>"}
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "User Guide",
+      "subtitle": "Fictional command-line tool example",
+      "notice": "This synthetic fixture tests the renderer; it does not describe a real product.",
+      "chapters": [
+        {
+          "id": "start",
+          "title": "Get started",
+          "blocks": [
+            {"type": "html", "content": "<p>Run <code>example-cli --help</code> in a terminal to list commands.</p>"}
+          ]
+        },
+        {
+          "id": "result",
+          "title": "Inspect the result",
+          "blocks": [
+            {"type": "html", "content": "<p>After <code>example-cli check sample.txt</code>, read the terminal status. This is a synthetic command.</p>"}
+          ]
+        }
+      ]
+    }
+  }
+}
